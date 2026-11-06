@@ -7,8 +7,9 @@ class Cart:
     def add_dvd(self, dvd):
         if len(self.items) >= self.MAX_CAPACITY:
             print("The cart is full.")
-            return
+            return False
         self.items.append(dvd)
+        return True
 
     def remove_dvd(self, dvd):
         if dvd in self.items:
