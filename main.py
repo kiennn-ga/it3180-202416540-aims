@@ -1,5 +1,5 @@
-from cart import Cart
-from dvd import DigitalVideoDisc
+from aims.cart import Cart
+from aims.dvd import DigitalVideoDisc
 
 
 def main():
