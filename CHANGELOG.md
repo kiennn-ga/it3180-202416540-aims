@@ -14,6 +14,17 @@ Tài liệu theo cấu trúc Keep a Changelog; phiên bản dùng Semantic Versi
 - `Cart.sort_by_cost()` sắp xếp giỏ theo giá tăng dần, giữ thứ tự tương đối khi giá bằng nhau.
 - Bốn test cho sắp xếp theo tên, theo giá, giỏ trống và các DVD cùng giá.
 
+### Fixed
+
+- Nhận bản sửa tìm theo tên không phân biệt hoa thường từ nhánh bảo trì 1.0.1, kèm ba test hồi quy (Issue #21).
+
+## [1.0.1] - 2026-11-07
+
+### Fixed
+
+- `search_by_title()` tìm theo tên không phân biệt hoa thường; từ khóa `lion` tìm thấy `The Lion King` (Issue #21).
+- Bổ sung ba test hồi quy cho chữ hoa/thường, không có kết quả và danh sách rỗng.
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
