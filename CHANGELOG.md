@@ -5,6 +5,13 @@ Tài liệu theo cấu trúc Keep a Changelog; phiên bản dùng Semantic Versi
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-07
+
+### Fixed
+
+- `search_by_title()` tìm theo tên không phân biệt hoa thường; từ khóa `lion` tìm thấy `The Lion King` (Issue #21).
+- Bổ sung ba test hồi quy cho chữ hoa/thường, không có kết quả và danh sách rỗng.
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
