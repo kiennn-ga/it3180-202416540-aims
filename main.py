@@ -1,8 +1,10 @@
+from aims import __version__
 from aims.cart import Cart
 from aims.dvd import DigitalVideoDisc
 
 
 def main():
+    print(f"AIMS-mini v{__version__}")
     cart = Cart()
     cart.add_dvd(
         DigitalVideoDisc(
