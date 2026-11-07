@@ -5,6 +5,8 @@ Tài liệu theo cấu trúc Keep a Changelog; phiên bản dùng Semantic Versi
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-07
+
 ### Added
 
 - `search_by_category(items, category)` tìm DVD theo tên thể loại khớp chính xác; thêm ba test cho danh sách kết quả, không khớp và đầu vào rỗng.
