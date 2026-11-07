@@ -5,6 +5,12 @@ Tài liệu theo cấu trúc Keep a Changelog; phiên bản dùng Semantic Versi
 
 ## [Unreleased]
 
+### Added
+
+- `Cart.sort_by_title()` sắp xếp giỏ theo tên DVD tăng dần.
+- `Cart.sort_by_cost()` sắp xếp giỏ theo giá tăng dần, giữ thứ tự tương đối khi giá bằng nhau.
+- Bốn test cho sắp xếp theo tên, theo giá, giỏ trống và các DVD cùng giá.
+
 ## [1.0.0] - 2026-11-07
 
 ### Added
