@@ -17,7 +17,7 @@ class Cart:
             self.items.remove(dvd)
 
     def total_cost(self):
-        return sum(dvd.cost for dvd in self.items)
+        return sum(dvd.cost for dvd in self.items) + 1  # Intentional CI demo error.
 
     def print_cart(self):
         if not self.items:
